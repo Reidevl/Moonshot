@@ -12,6 +12,8 @@
 		EE3596FF2BA4926600640EF3 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3596FE2BA4926600640EF3 /* MissionView.swift */; };
 		EE3597022BA49D5100640EF3 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3597012BA49D5100640EF3 /* CustomDivider.swift */; };
 		EE3597052BA4A56200640EF3 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3597042BA4A56200640EF3 /* AstronautView.swift */; };
+		EE3597072BA4A74400640EF3 /* MissionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3597062BA4A74400640EF3 /* MissionCardView.swift */; };
+		EE35970B2BA4ADED00640EF3 /* CrewMemberCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35970A2BA4ADED00640EF3 /* CrewMemberCardView.swift */; };
 		EEFB484C2BA1FF65008D8B2A /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFB484B2BA1FF65008D8B2A /* MoonshotApp.swift */; };
 		EEFB484E2BA1FF65008D8B2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFB484D2BA1FF65008D8B2A /* ContentView.swift */; };
 		EEFB48502BA1FF68008D8B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFB484F2BA1FF68008D8B2A /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		EE3596FE2BA4926600640EF3 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		EE3597012BA49D5100640EF3 /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
 		EE3597042BA4A56200640EF3 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		EE3597062BA4A74400640EF3 /* MissionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCardView.swift; sourceTree = "<group>"; };
+		EE35970A2BA4ADED00640EF3 /* CrewMemberCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewMemberCardView.swift; sourceTree = "<group>"; };
 		EEFB48482BA1FF65008D8B2A /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEFB484B2BA1FF65008D8B2A /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		EEFB484D2BA1FF65008D8B2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,10 +74,19 @@
 		EE3597032BA49D5D00640EF3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EE3597062BA4A74400640EF3 /* MissionCardView.swift */,
+				EE35970A2BA4ADED00640EF3 /* CrewMemberCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE35970C2BA4B1A700640EF3 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
 				EE3596FE2BA4926600640EF3 /* MissionView.swift */,
 				EE3597042BA4A56200640EF3 /* AstronautView.swift */,
 			);
-			path = Views;
+			path = Pages;
 			sourceTree = "<group>";
 		};
 		EEFB483F2BA1FF65008D8B2A = {
@@ -95,6 +108,7 @@
 		EEFB484A2BA1FF65008D8B2A /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
+				EE35970C2BA4B1A700640EF3 /* Pages */,
 				EE3597032BA49D5D00640EF3 /* Views */,
 				EE3597002BA4926B00640EF3 /* Components */,
 				EE1014752BA242D2000BADE3 /* Extensions */,
@@ -198,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE35970B2BA4ADED00640EF3 /* CrewMemberCardView.swift in Sources */,
 				EE3597022BA49D5100640EF3 /* CustomDivider.swift in Sources */,
 				EE3597052BA4A56200640EF3 /* AstronautView.swift in Sources */,
 				EE3596FF2BA4926600640EF3 /* MissionView.swift in Sources */,
@@ -205,6 +220,7 @@
 				EE1014742BA242A4000BADE3 /* Color-Theme.swift in Sources */,
 				EEFB48602BA2280B008D8B2A /* AstronautsModel.swift in Sources */,
 				EEFB484E2BA1FF65008D8B2A /* ContentView.swift in Sources */,
+				EE3597072BA4A74400640EF3 /* MissionCardView.swift in Sources */,
 				EEFB484C2BA1FF65008D8B2A /* MoonshotApp.swift in Sources */,
 				EEFB48632BA228A6008D8B2A /* Bundle-Decodable.swift in Sources */,
 			);
